@@ -1,5 +1,4 @@
-import DEFAULT_TOKEN_LIST from '@omniswap/default-token-list'
-import COMMUNITY_TOKEN_LIST from '@venomswap/community-token-list'
+import DEFAULT_TOKEN_LIST from '@agoraswap/default-token-list'
 import { ChainId, Token } from '@agoraswap/sdk'
 
 export interface TokenListToken {
@@ -16,7 +15,7 @@ export class Tokens {
   rawTokens: TokenListToken[]
   tokens?: Token[]
   
-  constructor(chainId?: ChainId, tokens = [...DEFAULT_TOKEN_LIST.tokens, ...COMMUNITY_TOKEN_LIST.tokens]) {
+  constructor(chainId?: ChainId, tokens = [...DEFAULT_TOKEN_LIST.tokens]) {
     this.chainId = chainId
     this.rawTokens = tokens
     this.setTokens()

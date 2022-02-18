@@ -1,7 +1,6 @@
 import { ETHER, METIS, HARMONY, BINANCE_COIN, ChainId, Token } from '@agoraswap/sdk';
 import random from 'lodash.random';
-import DEFAULT_TOKEN_LIST from '@omniswap/default-token-list';
-import COMMUNITY_TOKEN_LIST from '@venomswap/community-token-list';
+import DEFAULT_TOKEN_LIST from '@agoraswap/default-token-list';
 
 var _BLOCKCHAIN_SETTINGS;
 /**
@@ -317,7 +316,7 @@ var _TOKENS;
 var Tokens = /*#__PURE__*/function () {
   function Tokens(chainId, tokens) {
     if (tokens === void 0) {
-      tokens = [].concat(DEFAULT_TOKEN_LIST.tokens, COMMUNITY_TOKEN_LIST.tokens);
+      tokens = [].concat(DEFAULT_TOKEN_LIST.tokens);
     }
 
     this.chainId = chainId;

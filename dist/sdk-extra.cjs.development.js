@@ -6,8 +6,7 @@ function _interopDefault (ex) { return (ex && (typeof ex === 'object') && 'defau
 
 var sdk = require('@agoraswap/sdk');
 var random = _interopDefault(require('lodash.random'));
-var DEFAULT_TOKEN_LIST = _interopDefault(require('@omniswap/default-token-list'));
-var COMMUNITY_TOKEN_LIST = _interopDefault(require('@venomswap/community-token-list'));
+var DEFAULT_TOKEN_LIST = _interopDefault(require('@agoraswap/default-token-list'));
 
 var _BLOCKCHAIN_SETTINGS;
 
@@ -318,7 +317,7 @@ var _TOKENS;
 var Tokens = /*#__PURE__*/function () {
   function Tokens(chainId, tokens) {
     if (tokens === void 0) {
-      tokens = [].concat(DEFAULT_TOKEN_LIST.tokens, COMMUNITY_TOKEN_LIST.tokens);
+      tokens = [].concat(DEFAULT_TOKEN_LIST.tokens);
     }
 
     this.chainId = chainId;

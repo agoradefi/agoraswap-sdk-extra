@@ -2,6 +2,10 @@
 # yarn lockfile v1
 
 
+"@agoraswap/default-token-list@https://github.com/agoradefi/agoraswap-default-token-list.git":
+  version "1.0.0"
+  resolved "https://github.com/agoradefi/agoraswap-default-token-list.git#54cc51f93a1a2163391a751e71e5a410bcb84756"
+
 "@agoraswap/sdk@https://github.com/agoradefi/agoraswap-sdk#main":
   version "1.0.0"
   resolved "https://github.com/agoradefi/agoraswap-sdk#e7c3d31b8e46b13d488acc1544e20f27417e3258"
@@ -1423,11 +1427,6 @@
     "@jridgewell/resolve-uri" "^3.0.3"
     "@jridgewell/sourcemap-codec" "^1.4.10"
 
-"@omniswap/default-token-list@^1.0.0":
-  version "1.0.0"
-  resolved "https://registry.yarnpkg.com/@omniswap/default-token-list/-/default-token-list-1.0.0.tgz#8ff9047f3462438493edbbf60249502ffb25bf60"
-  integrity sha512-jT10Iosc26YQVA00VD4VPALwtOhtH0W8ojyDjPm9oj32xZdtoHllKzDz5ho6pP9U7ZEnxZfvwpbMmpnrh2cMog==
-
 "@rollup/plugin-babel@^5.1.0":
   version "5.3.0"
   resolved "https://registry.yarnpkg.com/@rollup/plugin-babel/-/plugin-babel-5.3.0.tgz#9cb1c5146ddd6a4968ad96f209c50c62f92f9879"
@@ -1698,11 +1697,6 @@
     lodash "^4.17.15"
     semver "^7.3.2"
     tsutils "^3.17.1"
-
-"@venomswap/community-token-list@^2.3.1":
-  version "2.5.0"
-  resolved "https://registry.yarnpkg.com/@venomswap/community-token-list/-/community-token-list-2.5.0.tgz#ae43a2d3abb5e0475172ef9755ac3a174511652c"
-  integrity sha512-F4T6edG8X0uNOPo1gb6OSmx0pLw0Bia1Y0ZdfJJ4hzn3vXmHpPQvyulTZ9KSeU8UhL9MYJfZilNjetnCuhP2TA==
 
 "@venomswap/core@^1.0.0":
   version "1.0.0"

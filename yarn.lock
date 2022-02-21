@@ -6,9 +6,9 @@
   version "1.0.0"
   resolved "https://github.com/agoradefi/agoraswap-default-token-list.git#54cc51f93a1a2163391a751e71e5a410bcb84756"
 
-"@agoraswap/sdk@https://github.com/agoradefi/agoraswap-sdk#main":
+"@agoraswap/sdk@https://github.com/agoradefi/agoraswap-sdk.git":
   version "1.0.0"
-  resolved "https://github.com/agoradefi/agoraswap-sdk#e7c3d31b8e46b13d488acc1544e20f27417e3258"
+  resolved "https://github.com/agoradefi/agoraswap-sdk.git#b55c2598ddc18aba3d1cd47615d762fde1c636fa"
   dependencies:
     "@venomswap/core" "^1.0.0"
     big.js "^5.2.2"

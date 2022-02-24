@@ -2,13 +2,15 @@
 # yarn lockfile v1
 
 
-"@agoraswap/default-token-list@https://github.com/agoradefi/agoraswap-default-token-list.git":
+"@agoraswap/default-token-list@^1.0.0":
   version "1.0.0"
-  resolved "https://github.com/agoradefi/agoraswap-default-token-list.git#54cc51f93a1a2163391a751e71e5a410bcb84756"
+  resolved "https://registry.yarnpkg.com/@agoraswap/default-token-list/-/default-token-list-1.0.0.tgz#9ab5b2d6f9b883653a3bc366f1ee1379f7e66704"
+  integrity sha512-9BU36fDgwqBTF7idVdx9EEKFyAli6kwb9KIguvlss5U/+/bl10e2Yz3Jb7kRP1+R1MK6WIcMdd8sbdo2Ae9xCA==
 
-"@agoraswap/sdk@https://github.com/agoradefi/agoraswap-sdk.git":
-  version "1.0.0"
-  resolved "https://github.com/agoradefi/agoraswap-sdk.git#b55c2598ddc18aba3d1cd47615d762fde1c636fa"
+"@agoraswap/sdk@^1.0.1":
+  version "1.0.1"
+  resolved "https://registry.yarnpkg.com/@agoraswap/sdk/-/sdk-1.0.1.tgz#47cc4af4271527314ec114d40b6dbf4aff5c30ac"
+  integrity sha512-KtDTJZzOhcp1Db5RKBpg7c9SdkgNPrHaz1SZEQrYLql5N37NwSO5c5RdUV5km5J90blgx/UKn6INu9t1dz3H0Q==
   dependencies:
     "@venomswap/core" "^1.0.0"
     big.js "^5.2.2"

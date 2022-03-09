@@ -2,15 +2,15 @@
 # yarn lockfile v1
 
 
-"@agoraswap/default-token-list@^1.0.0":
-  version "1.0.0"
-  resolved "https://registry.yarnpkg.com/@agoraswap/default-token-list/-/default-token-list-1.0.0.tgz#9ab5b2d6f9b883653a3bc366f1ee1379f7e66704"
-  integrity sha512-9BU36fDgwqBTF7idVdx9EEKFyAli6kwb9KIguvlss5U/+/bl10e2Yz3Jb7kRP1+R1MK6WIcMdd8sbdo2Ae9xCA==
+"@agoraswap/default-token-list@^1.0.3":
+  version "1.0.3"
+  resolved "https://registry.yarnpkg.com/@agoraswap/default-token-list/-/default-token-list-1.0.3.tgz#d636d1e013dd07f4da755e29f38a10607c05e89a"
+  integrity sha512-zbxevYF65xWQsltq8vwKCOzc1N+W7u5XX1fK94tLfUKyW2S/A0LTHltz5IPWZnWVlBvY3/iV2LeLVZSmKOl1+g==
 
-"@agoraswap/sdk@^1.0.1":
-  version "1.0.1"
-  resolved "https://registry.yarnpkg.com/@agoraswap/sdk/-/sdk-1.0.1.tgz#47cc4af4271527314ec114d40b6dbf4aff5c30ac"
-  integrity sha512-KtDTJZzOhcp1Db5RKBpg7c9SdkgNPrHaz1SZEQrYLql5N37NwSO5c5RdUV5km5J90blgx/UKn6INu9t1dz3H0Q==
+"@agoraswap/sdk@^1.1.0":
+  version "1.1.0"
+  resolved "https://registry.yarnpkg.com/@agoraswap/sdk/-/sdk-1.1.0.tgz#4f88d079eca395c3cd70c0ded23833c12b1a0c3f"
+  integrity sha512-ODBmGeBr8H/Jgm5fTmsR8Pu4OO/ASff/AHrbzAurt43if1C6Xsg31UEFTbf6Rhe65Bx4maFAbpgrZjK5BnZ/vQ==
   dependencies:
     "@venomswap/core" "^1.0.0"
     big.js "^5.2.2"

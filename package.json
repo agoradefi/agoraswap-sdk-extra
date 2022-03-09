@@ -1,7 +1,7 @@
 {
   "name": "@agoraswap/sdk-extra",
   "license": "MIT",
-  "version": "1.0.1",
+  "version": "1.1.0",
   "description": "🛠 A specific SDK/toolkit for building applications on top of AgoraSwap.",
   "main": "dist/index.js",
   "typings": "dist/index.d.ts",
@@ -33,8 +33,8 @@
     "lodash.random": "^3.2.0"
   },
   "devDependencies": {
-    "@agoraswap/default-token-list": "^1.0.0",
-    "@agoraswap/sdk": "^1.0.1",
+    "@agoraswap/default-token-list": "^1.0.3",
+    "@agoraswap/sdk": "^1.1.0",
     "@types/jest": "^26.0.23",
     "tsdx": "^0.14.1"
   },
